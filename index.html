@@ -6,37 +6,38 @@
 <title>Sueli Pedroso — Links</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 <style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Lato', sans-serif; min-height: 100vh; background: #F5E9E2; position: relative; overflow-x: hidden; }
-  body::before { content: ''; position: fixed; inset: 0; background: radial-gradient(ellipse at 20% 10%, rgba(191,162,219,0.18) 0%, transparent 50%), radial-gradient(ellipse at 80% 90%, rgba(198,156,109,0.15) 0%, transparent 50%); pointer-events: none; z-index: 0; }
-  .barra-topo { position: fixed; top: 0; left: 0; right: 0; height: 5px; background: linear-gradient(90deg, #D8A7B1, #C69C6D, #BFA2DB); z-index: 100; }
-  .page { position: relative; z-index: 1; max-width: 480px; margin: 0 auto; padding: 60px 24px 64px; display: flex; flex-direction: column; align-items: center; }
-  .foto-wrap { width: 110px; height: 110px; border-radius: 50%; border: 3px solid #C69C6D; overflow: hidden; box-shadow: 0 6px 24px rgba(198,156,109,0.25); margin-bottom: 16px; background: #EAD7C5; }
-  .foto-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
-  .logo-wrap { height: 52px; margin-bottom: 12px; background: #EAD7C5; border-radius: 8px; overflow: hidden; }
-  .logo-wrap img { height: 100%; object-fit: contain; }
-  .boas-vindas { font-family: 'Playfair Display', serif; font-size: 15px; font-style: italic; color: #7a6a63; text-align: center; margin-bottom: 6px; line-height: 1.5; }
-  .profissao { font-size: 10px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #C69C6D; text-align: center; margin-bottom: 32px; }
-  .divisor { display: flex; align-items: center; gap: 10px; width: 100%; margin-bottom: 28px; }
-  .divisor::before, .divisor::after { content: ''; flex: 1; height: 1px; background: linear-gradient(90deg, transparent, #C69C6D, transparent); }
-  .divisor span { font-size: 12px; color: #C69C6D; }
-  .links { width: 100%; display: flex; flex-direction: column; gap: 14px; margin-bottom: 36px; }
-  .link-btn { display: flex; align-items: center; gap: 14px; padding: 16px 20px; border-radius: 14px; text-decoration: none; transition: all 0.25s ease; position: relative; overflow: hidden; }
-  .link-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(74,58,51,0.18); }
-  .btn-dourado { background: linear-gradient(135deg, #C69C6D, #a87d50); box-shadow: 0 4px 16px rgba(198,156,109,0.3); }
-  .btn-rosa { background: linear-gradient(135deg, #D8A7B1, #c48a96); box-shadow: 0 4px 16px rgba(216,167,177,0.3); }
-  .btn-lilas { background: linear-gradient(135deg, #BFA2DB, #9f82c0); box-shadow: 0 4px 16px rgba(191,162,219,0.3); }
-  .btn-marrom { background: linear-gradient(135deg, #6B4F3A, #4A3A33); box-shadow: 0 4px 16px rgba(74,58,51,0.25); }
-  .btn-verde { background: linear-gradient(135deg, #6aaa8a, #4d8a6d); box-shadow: 0 4px 16px rgba(106,170,138,0.3); }
-  .badge-novo { position: absolute; top: 0; right: 14px; background: white; color: #C69C6D; font-size: 8px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 3px 10px; border-radius: 0 0 8px 8px; }
-  .link-icone { font-size: 22px; flex-shrink: 0; width: 32px; text-align: center; }
-  .link-texto { flex: 1; }
-  .link-titulo { font-size: 13px; font-weight: 700; color: white; margin-bottom: 2px; }
-  .link-sub { font-size: 10px; color: rgba(255,255,255,0.85); }
-  .link-seta { font-size: 14px; color: rgba(255,255,255,0.7); flex-shrink: 0; }
-  .rodape { text-align: center; }
-  .rodape-frase { font-family: 'Playfair Display', serif; font-size: 12px; font-style: italic; color: #9a8880; margin-bottom: 8px; line-height: 1.6; }
-  .rodape-arroba { font-size: 10px; font-weight: 700; letter-spacing: 0.1em; color: #BFA2DB; }
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Lato',sans-serif;min-height:100vh;background:#F5E9E2;position:relative;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse at 20% 10%,rgba(191,162,219,0.18) 0%,transparent 50%),radial-gradient(ellipse at 80% 90%,rgba(198,156,109,0.15) 0%,transparent 50%);pointer-events:none;z-index:0}
+.barra-topo{position:fixed;top:0;left:0;right:0;height:5px;background:linear-gradient(90deg,#D8A7B1,#C69C6D,#BFA2DB);z-index:100}
+.page{position:relative;z-index:1;max-width:480px;margin:0 auto;padding:60px 24px 64px;display:flex;flex-direction:column;align-items:center}
+.foto-wrap{width:110px;height:110px;border-radius:50%;border:3px solid #C69C6D;overflow:hidden;box-shadow:0 6px 24px rgba(198,156,109,0.25);margin-bottom:16px;background:#EAD7C5}
+.foto-wrap img{width:100%;height:100%;object-fit:cover;object-position:top center}
+.logo-wrap{height:52px;margin-bottom:12px;background:#EAD7C5;border-radius:8px;overflow:hidden}
+.logo-wrap img{height:100%;object-fit:contain}
+.boas-vindas{font-family:'Playfair Display',serif;font-size:15px;font-style:italic;color:#7a6a63;text-align:center;margin-bottom:6px;line-height:1.5}
+.profissao{font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#C69C6D;text-align:center;margin-bottom:32px}
+.divisor{display:flex;align-items:center;gap:10px;width:100%;margin-bottom:28px}
+.divisor::before,.divisor::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,transparent,#C69C6D,transparent)}
+.divisor span{font-size:12px;color:#C69C6D}
+.links{width:100%;display:flex;flex-direction:column;gap:14px;margin-bottom:36px}
+.link-btn{display:flex;align-items:center;gap:14px;padding:16px 20px;border-radius:14px;text-decoration:none;transition:all 0.25s ease;position:relative;overflow:hidden}
+.link-btn:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(74,58,51,0.18)}
+.btn-dourado{background:linear-gradient(135deg,#C69C6D,#a87d50);box-shadow:0 4px 16px rgba(198,156,109,0.3)}
+.btn-rosa{background:linear-gradient(135deg,#D8A7B1,#c48a96);box-shadow:0 4px 16px rgba(216,167,177,0.3)}
+.btn-lilas{background:linear-gradient(135deg,#BFA2DB,#9f82c0);box-shadow:0 4px 16px rgba(191,162,219,0.3)}
+.btn-marrom{background:linear-gradient(135deg,#6B4F3A,#4A3A33);box-shadow:0 4px 16px rgba(74,58,51,0.25)}
+.btn-verde{background:linear-gradient(135deg,#6aaa8a,#4d8a6d);box-shadow:0 4px 16px rgba(106,170,138,0.3)}
+.btn-roxo{background:linear-gradient(135deg,#9B6E3A,#7a5530);box-shadow:0 4px 16px rgba(155,110,58,0.3)}
+.badge-novo{position:absolute;top:0;right:14px;background:white;color:#C69C6D;font-size:8px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:3px 10px;border-radius:0 0 8px 8px}
+.link-icone{font-size:22px;flex-shrink:0;width:32px;text-align:center}
+.link-texto{flex:1}
+.link-titulo{font-size:13px;font-weight:700;color:white;margin-bottom:2px}
+.link-sub{font-size:10px;color:rgba(255,255,255,0.85)}
+.link-seta{font-size:14px;color:rgba(255,255,255,0.7);flex-shrink:0}
+.rodape{text-align:center}
+.rodape-frase{font-family:'Playfair Display',serif;font-size:12px;font-style:italic;color:#9a8880;margin-bottom:8px;line-height:1.6}
+.rodape-arroba{font-size:10px;font-weight:700;letter-spacing:0.1em;color:#BFA2DB}
 </style>
 </head>
 <body>
@@ -44,17 +45,54 @@
 <div class="page">
   <div class="foto-wrap"><img src="foto.jpeg" alt="Sueli Pedroso"></div>
   <div class="logo-wrap"><img src="logo.jpeg" alt="Sueli Pedroso"></div>
-  <p class="boas-vindas">Bem-vinda! Escolha por onde começar. 💛</p>
-  <p class="profissao">✦ Consteladora Familiar & Hipnóloga Sistêmica</p>
+  <p class="boas-vindas">Bem-vinda! Escolha por onde comecar. 💛</p>
+  <p class="profissao">✦ Consteladora Familiar e Hipnologa Sistemica</p>
   <div class="divisor"><span>✦</span></div>
   <div class="links">
+
     <a class="link-btn btn-dourado" href="https://rastreio-autoestima.suelipedrosoterap.com.br" target="_blank">
-      <span class="badge-novo">✨ Gratuito</span>
+      <span class="badge-novo">Gratuito</span>
       <span class="link-icone">🌿</span>
-      <div class="link-texto"><p class="link-titulo">Rastreio de Autoestima</p><p class="link-sub">Descubra seu padrão emocional em 2 minutos</p></div>
+      <div class="link-texto"><p class="link-titulo">Rastreio de Autoestima</p><p class="link-sub">Descubra seu padrao emocional em 2 minutos</p></div>
       <span class="link-seta">→</span>
     </a>
+
     <a class="link-btn btn-rosa" href="#" target="_blank">
-      <span class="badge-novo">✨ Em breve</span>
+      <span class="badge-novo">Em breve</span>
       <span class="link-icone">🕊️</span>
-      <div class="link-texto"><p class="link-titulo">Rastreio de Ansiedade</p><p class="link-sub">Descubra como a ansi
+      <div class="link-texto"><p class="link-titulo">Rastreio de Ansiedade</p><p class="link-sub">Descubra como a ansiedade age em voce</p></div>
+      <span class="link-seta">→</span>
+    </a>
+
+    <a class="link-btn btn-verde" href="https://wa.me/5542984352645?text=Ola%20Sueli!%20Vim%20pelo%20Instagram%20e%20gostaria%20de%20saber%20mais%20sobre%20o%20seu%20trabalho." target="_blank">
+      <span class="link-icone">💬</span>
+      <div class="link-texto"><p class="link-titulo">Fale comigo no WhatsApp</p><p class="link-sub">Tire duvidas ou agende uma sessao</p></div>
+      <span class="link-seta">→</span>
+    </a>
+
+    <a class="link-btn btn-lilas" href="https://chat.whatsapp.com/LjvBdQEmwzyFXCU4zvo30J" target="_blank">
+      <span class="link-icone">🃏</span>
+      <div class="link-texto"><p class="link-titulo">Cartas Sistemicas em Acao</p><p class="link-sub">Entre no meu grupo gratuito do WhatsApp</p></div>
+      <span class="link-seta">→</span>
+    </a>
+
+    <a class="link-btn btn-marrom" href="https://suelipedrosoterap.lovable.app" target="_blank">
+      <span class="link-icone">🌐</span>
+      <div class="link-texto"><p class="link-titulo">Meu Site</p><p class="link-sub">Conheca meu trabalho e servicos</p></div>
+      <span class="link-seta">→</span>
+    </a>
+
+    <a class="link-btn btn-roxo" href="https://instagram.com/suape3_terapias" target="_blank">
+      <span class="link-icone">📸</span>
+      <div class="link-texto"><p class="link-titulo">Instagram</p><p class="link-sub">@suape3_terapias — conteudo sobre saude emocional</p></div>
+      <span class="link-seta">→</span>
+    </a>
+
+  </div>
+  <div class="rodape">
+    <p class="rodape-frase">Acolhe com profundidade, revela com clareza e direciona com firmeza.</p>
+    <p class="rodape-arroba">✦ @suape3_terapias</p>
+  </div>
+</div>
+</body>
+</html>
